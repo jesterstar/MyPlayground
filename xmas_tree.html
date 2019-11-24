@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style>
+    .wrapper{
+        width: 500px;
+        height: 500px;
+        background-color: #dadada;
+        position: absolute;
+        left:  50%;
+        top: 50%;
+        margin-top: -250px;
+        margin-left: -250px;
+    }
+
+    .wrapper div{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+    }
+
+    .red{
+        background-color: red;
+    }
+    .green{
+        background-color: darkgreen;
+    }
+    .pink{
+        background-color: pink;
+    }
+    .yellow{
+        background: yellow;
+    }
+    .cayn{
+        background-color: cyan;
+    }
+    .center {
+        left: 50%;
+        margin-left: -10px;
+
+    }
+
+    .wrapper div:nth-child(2){
+        margin-top: 20px;
+    }
+    .wrapper div:nth-child(3),
+    .wrapper div:nth-child(4),
+    .wrapper div:nth-child(5){
+        margin-top: 40px;
+    }
+
+    .wrapper div:nth-child(3){
+        left: 50%;
+        margin-left: -30px;
+    }
+    .wrapper div:nth-child(5){
+        left: 50%;
+        margin-left: 10px;
+    }
+
+</style>
+
+<div class="wrapper">
+    <div class="red center"></div>
+
+    <div class="green center"></div>
+
+    <div class="green"></div>
+    <div class="green center"></div>
+    <div class="green"></div>
+</div>
+
+</body>
+</html>
